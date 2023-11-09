@@ -46,8 +46,10 @@ table {
 }
 
 /*-------------------------------------------*/
-
-
+.tree img{
+   
+    width: 80%;
+}
 .about {
     margin-right:auto;
     margin-left: auto;
@@ -58,14 +60,17 @@ table {
     justify-content: center;
    margin-top: 30px;
     background-color: chocolate;
+ 
     color: bisque;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
-    
+
 }
 .about > img {
     width: 15%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .about h1 {
@@ -104,7 +109,8 @@ table {
 
 .projects {
     display: flex;
-    margin-top: 30px;
+    margin-top: px;
+    
    
 }
 .horiseon {
@@ -147,6 +153,7 @@ table {
 .projects {
     display: flex;
     justify-content: center;
+    
 }
 .projects h1 {
     font-size: 2rem;
@@ -158,7 +165,10 @@ table {
     flex:1;
     justify-content: center;
     text-align: center;
-    margin: 9px;
+    gap: 10px;
+    
+   
+  
     /* background-color: chocolate; */
     
     /* flex-wrap: wrap; */
@@ -170,9 +180,15 @@ table {
     }
 }
 .container img {
-    width: 90%;
+    /* width: 90%; */
     /* height: 90%; */
     border-radius: 15px;
+    width:100%;
+	height:auto;
+    
+  
+
+    
 }
 
 .contact {
